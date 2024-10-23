@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33214.272
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneApp", "PhoneApp.csproj", "{E752971F-D21B-48C3-BEDC-D87694ED4CBF}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeesLoaderPlugin", "..\EmployeesLoaderPlugin\EmployeesLoaderPlugin.csproj", "{34020997-B7BD-4213-97CF-C602C3EF7DC0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeesViewerPlugin", "..\EmployeesViewerPlugin\EmployeesViewerPlugin.csproj", "{40B8CEFD-6516-4F12-BA3E-51E6BEAE822C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeesParserPlugin", "..\EmployeesParserPlugin\EmployeesParserPlugin.csproj", "{33263C11-A0AA-4AEE-B09E-80407B201D70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{40B8CEFD-6516-4F12-BA3E-51E6BEAE822C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40B8CEFD-6516-4F12-BA3E-51E6BEAE822C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40B8CEFD-6516-4F12-BA3E-51E6BEAE822C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33263C11-A0AA-4AEE-B09E-80407B201D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33263C11-A0AA-4AEE-B09E-80407B201D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33263C11-A0AA-4AEE-B09E-80407B201D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33263C11-A0AA-4AEE-B09E-80407B201D70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

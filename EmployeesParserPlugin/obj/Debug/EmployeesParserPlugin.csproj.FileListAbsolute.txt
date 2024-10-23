@@ -1,0 +1,17 @@
+D:\Temporary\Тестовое\f\EmployeesParserPlugin\bin\Debug\EmployeesLoader.Plugin.dll
+D:\Temporary\Тестовое\f\EmployeesParserPlugin\bin\Debug\EmployeesViewer.Plugin.dll
+D:\Temporary\Тестовое\f\EmployeesParserPlugin\bin\Debug\EmployeesViewer.Plugin.pdb
+D:\Temporary\Тестовое\f\EmployeesParserPlugin\bin\Debug\EmployeesParserPlugin.dll
+D:\Temporary\Тестовое\f\EmployeesParserPlugin\bin\Debug\EmployeesParserPlugin.pdb
+D:\Temporary\Тестовое\f\EmployeesParserPlugin\bin\Debug\Newtonsoft.Json.dll
+D:\Temporary\Тестовое\f\EmployeesParserPlugin\bin\Debug\NLog.dll
+D:\Temporary\Тестовое\f\EmployeesParserPlugin\bin\Debug\PhoneApp.exe
+D:\Temporary\Тестовое\f\EmployeesParserPlugin\bin\Debug\PhoneApp.pdb
+D:\Temporary\Тестовое\f\EmployeesParserPlugin\bin\Debug\PhoneApp.exe.config
+D:\Temporary\Тестовое\f\EmployeesParserPlugin\bin\Debug\Newtonsoft.Json.xml
+D:\Temporary\Тестовое\f\EmployeesParserPlugin\bin\Debug\NLog.xml
+D:\Temporary\Тестовое\f\EmployeesParserPlugin\obj\Debug\EmployeesParserPlugin.csproj.AssemblyReference.cache
+D:\Temporary\Тестовое\f\EmployeesParserPlugin\obj\Debug\EmployeesParserPlugin.csproj.CoreCompileInputs.cache
+D:\Temporary\Тестовое\f\EmployeesParserPlugin\obj\Debug\Employee.2B15D6D2.Up2Date
+D:\Temporary\Тестовое\f\EmployeesParserPlugin\obj\Debug\EmployeesParserPlugin.dll
+D:\Temporary\Тестовое\f\EmployeesParserPlugin\obj\Debug\EmployeesParserPlugin.pdb
