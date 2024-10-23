@@ -6,8 +6,8 @@ using PhoneApp.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net;
 using System.Net.Http;
+using System.Security.Authentication;
 
 namespace EmployeesParserPlugin
 {
@@ -21,11 +21,13 @@ namespace EmployeesParserPlugin
         {
             logger.Info("Starting Parser");
 
-            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
-
             var employeesList = args.Cast<EmployeesDTO>()?.ToList() ?? new List<EmployeesDTO>();
 
-            using (HttpClient client = new HttpClient())
+            var httpClientHandler = new HttpClientHandler
+            {
+                SslProtocols = SslProtocols.Tls13 | SslProtocols.Tls12,
+            };
+            using (HttpClient client = new HttpClient(httpClientHandler))
             {
                 ApiResponse api = null;
 
