@@ -37,16 +37,13 @@ namespace EmployeesParserPlugin
                     response.EnsureSuccessStatusCode();
 
                     string jsonResponse = response.Content.ReadAsStringAsync().Result;
-                    try
-                    {
-                        api = JsonConvert.DeserializeObject<ApiResponse>(jsonResponse);
-                    }
-                    catch (JsonException ex)
-                    {
-                        logger.Error($"JSON deserialization error: {ex.Message}");
-                        logger.Trace(ex.StackTrace);
-                        return args;
-                    }
+                    api = JsonConvert.DeserializeObject<ApiResponse>(jsonResponse);
+                }
+                catch (JsonException ex)
+                {
+                    logger.Error($"JSON deserialization error: {ex.Message}");
+                    logger.Trace(ex.StackTrace);
+                    return args;
                 }
                 catch (HttpRequestException ex)
                 {
